@@ -17,11 +17,18 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_runright","order":6,"path":"sprites/spr_runright/spr_runright.yy",},
+    {"name":"obj_hangmandealer","order":2,"path":"objects/obj_hangmandealer/obj_hangmandealer.yy",},
+    {"name":"rm_HangmanGame","order":4,"path":"rooms/rm_HangmanGame/rm_HangmanGame.yy",},
+    {"name":"Sprite9","order":5,"path":"sprites/Sprite9/Sprite9.yy",},
+    {"name":"spr_floor","order":5,"path":"sprites/spr_floor/spr_floor.yy",},
     {"name":"spr_rug","order":2,"path":"sprites/spr_rug/spr_rug.yy",},
     {"name":"spr_paths","order":1,"path":"sprites/spr_paths/spr_paths.yy",},
+    {"name":"TileSet1","order":2,"path":"tilesets/TileSet1/TileSet1.yy",},
     {"name":"rm_mainMenu","order":1,"path":"rooms/rm_mainMenu/rm_mainMenu.yy",},
     {"name":"_61af6d92_c11a_460e_aac7_2dae7298a39a","order":4,"path":"sprites/_61af6d92_c11a_460e_aac7_2dae7298a39a/_61af6d92_c11a_460e_aac7_2dae7298a39a.yy",},
     {"name":"bryan_character","order":3,"path":"sprites/bryan_character/bryan_character.yy",},
+    {"name":"TileSet2","order":3,"path":"tilesets/TileSet2/TileSet2.yy",},
     {"name":"Sprite4","order":1,"path":"sprites/Sprite4/Sprite4.yy",},
   ],
 }
