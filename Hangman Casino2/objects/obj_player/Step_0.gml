@@ -12,7 +12,12 @@ axis_y = (move_down - move_up) * walkspeed ;
 
 //not moving
 if (axis_x == 0 && axis_y == 0 ) {
-	
+	switch dir {
+	case 0: sprite_index = spr_player_idle; break;
+	case 1: sprite_index = spr_player_idle; break;
+	case 2: sprite_index = spr_idleleft; break;
+	case 3: sprite_index = spr_player_idle; break;
+	}
 }
 //moving checks if axis x or y is being pushed
 if (axis_x != 0 || axis_y != 0 ){
@@ -29,6 +34,24 @@ if (axis_x != 0 || axis_y != 0 ){
 	
 	
 	
+}
+
+if (axis_x > 0){
+	sprite_index = spr_runright;
+	dir = 0;
+}
+
+if (axis_x < 0){
+	sprite_index = spr_runleft;
+	dir = 2;
+}
+if (axis_y > 0){
+	sprite_index = spr_player;
+	dir = 3;
+}
+if (axis_y > 0){
+	sprite_index = spr_player;
+	dir = 1;
 }
 
 depth =-y;

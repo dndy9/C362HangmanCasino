@@ -1,4 +1,4 @@
-walkspeed = 5;
+walkspeed = 3;
 axis_x = 0;
 axis_y = 0;
 dir = 3;
