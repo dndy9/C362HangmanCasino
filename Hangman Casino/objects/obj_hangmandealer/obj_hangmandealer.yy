@@ -4,6 +4,7 @@
   "name": "obj_hangmandealer",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -11,7 +12,10 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_object_collision",
+    "path": "objects/obj_object_collision/obj_object_collision.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "bryan_character",
-    "path": "sprites/bryan_character/bryan_character.yy",
+    "name": "spr_casinoGame",
+    "path": "sprites/spr_casinoGame/spr_casinoGame.yy",
   },
   "spriteMaskId": null,
   "visible": true,
